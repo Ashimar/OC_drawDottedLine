@@ -15,6 +15,7 @@
 		0908D2441DCC161500CA0E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0908D2421DCC161500CA0E74 /* LaunchScreen.storyboard */; };
 		0908D24F1DCC161500CA0E74 /* OC_drawDottedLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0908D24E1DCC161500CA0E74 /* OC_drawDottedLineTests.m */; };
 		0908D25A1DCC161500CA0E74 /* OC_drawDottedLineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0908D2591DCC161500CA0E74 /* OC_drawDottedLineUITests.m */; };
+		0908D2691DCC16AD00CA0E74 /* DashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0908D2681DCC16AD00CA0E74 /* DashView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0908D2551DCC161500CA0E74 /* OC_drawDottedLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OC_drawDottedLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0908D2591DCC161500CA0E74 /* OC_drawDottedLineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_drawDottedLineUITests.m; sourceTree = "<group>"; };
 		0908D25B1DCC161500CA0E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0908D2671DCC16AD00CA0E74 /* DashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashView.h; sourceTree = "<group>"; };
+		0908D2681DCC16AD00CA0E74 /* DashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0908D2381DCC161500CA0E74 /* AppDelegate.m */,
 				0908D23A1DCC161500CA0E74 /* ViewController.h */,
 				0908D23B1DCC161500CA0E74 /* ViewController.m */,
+				0908D2671DCC16AD00CA0E74 /* DashView.h */,
+				0908D2681DCC16AD00CA0E74 /* DashView.m */,
 				0908D23D1DCC161500CA0E74 /* Main.storyboard */,
 				0908D2401DCC161500CA0E74 /* Assets.xcassets */,
 				0908D2421DCC161500CA0E74 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0908D2691DCC16AD00CA0E74 /* DashView.m in Sources */,
 				0908D23C1DCC161500CA0E74 /* ViewController.m in Sources */,
 				0908D2391DCC161500CA0E74 /* AppDelegate.m in Sources */,
 				0908D2361DCC161500CA0E74 /* main.m in Sources */,
